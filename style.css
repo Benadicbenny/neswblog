@@ -1,0 +1,123 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background: url('./images/full\ background\ image.jpg') no-repeat center center fixed; 
+    background-size: cover;  */
+}
+/* nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ; */
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    list-style-type: none;
+    width: 20%;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4; 
+    padding: 10px;
+    border-bottom: 2px solid #ddd; 
+}
+
+nav .logo {
+    margin-right: 20px;
+}
+
+nav h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0056b3;}
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .main {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+     ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    li {
+        margin: 10px;
+        transition: transform 0.2s;
+    }
+    
+    li:hover {
+        transform: scale(1.05);
+    }
+    
+    a img {
+        width: 150px; 
+        height: auto;
+        border-radius: 8px;
+        border: 2px solid #ccc;
+        transition: border-color 0.2s;
+    }
+    
+    a img:hover {
+        border-color: #007BFF; 
+    
+    .news-blog-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.2s;
+    }
+    
+    .news-blog-link:hover {
+        background-color: #0056b3; 
+    }
+    
